@@ -5,6 +5,20 @@
     <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
     <LangVersion>9.0</LangVersion>
     <Nullable>enable</Nullable>
+    <Authors>Duncan Roosma</Authors>
+    <Description>Resilient HttpClient is a utilitie that helps ease the use of polly retry and circuitbreaker policies around IHttpClientBuilder</Description>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Title>Resilient.HttpClient</Title>
+    <PackageId>Resilient.HttpClient</PackageId>
+    <PackageTags>Polly;Resilience;IHttpClientBuilder</PackageTags>
+    <PackageProjectUrl>https://github.com/droosma/Resilient.HttpClient</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <RootNamespace>Resilient.HttpClient</RootNamespace>
+    <AssemblyName>Resilient.HttpClient</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
